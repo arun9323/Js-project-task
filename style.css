@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-div {
+    border: 1px solid black;
+    padding: 50px;
+    width: 25%
+}
+
+.invalid {
+    margin: 15px 30px;
+}
+
+.incomplit {
+    margin: 15px 30px;
+}
+
+.recent {
+    margin: 15px 30px;
+}
+
+.textbox {
+    margin: 15px 30px;
+}
+
+.reject {
+    border-radius: 4px;
+    border: gray;
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    width: 100px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.accept {
+    border-radius: 4px;
+    border: blue;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    width: 100px;
+    margin-left: 5px;
+    cursor: pointer;
+}
